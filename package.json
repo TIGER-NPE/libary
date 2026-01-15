@@ -1,0 +1,16 @@
+{
+  "name": "library-borrowing-system-mvp",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "server"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace frontend",
+    "build": "npm run build --workspace frontend",
+    "preview": "npm run preview --workspace frontend",
+    "server": "npm run dev --workspace server"
+  }
+}
+

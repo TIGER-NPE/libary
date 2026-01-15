@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-router-dom": "^6.28.0",
+    "html5-qrcode": "^2.3.8",
+    "@vladmandic/face-api": "^1.6.9"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "vite": "^6.0.0"
+  }
+}
+
